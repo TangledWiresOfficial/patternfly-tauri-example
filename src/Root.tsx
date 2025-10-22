@@ -12,7 +12,7 @@ import {NavLink, Outlet} from "react-router";
 import {useState} from "react";
 
 export default function Root() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const onSidebarToggle = () => {
     setIsSidebarOpen(!isSidebarOpen);

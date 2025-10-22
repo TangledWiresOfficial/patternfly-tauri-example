@@ -2,7 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
-import "@patternfly/react-core/dist/styles/base.css"
+import "@patternfly/react-core/dist/styles/base.css";
+import "@saurl/tauri-plugin-safe-area-insets-css-api";
+import "./App.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
