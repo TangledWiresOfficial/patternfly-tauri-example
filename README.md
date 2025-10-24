@@ -23,6 +23,7 @@ First, make sure you install the following dependencies: (or use the `shell.nix`
 - `pango`
 - `pkg-config`
 - `webkitgtk_4_1`
+
 Then, run `make dev` on Linux, or `cargo tauri dev` for other platforms.
 
 ## Compiling
