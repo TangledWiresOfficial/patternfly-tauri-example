@@ -1,6 +1,6 @@
 # patternfly-tauri-example
 
-This is a basic example [Tauri](https://tauri.app/) application that uses [PatternFly](https://patternfly.org/) + [React](https://react.dev/) for the frontend.
+This is a basic example [Tauri](https://tauri.app/) application that uses [PatternFly](https://patternfly.org/) + [React](https://react.dev/) for the frontend. It also supports mobile devices.
 
 ## Running the app
 First, make sure you install the following dependencies: (or use the `shell.nix` file)
