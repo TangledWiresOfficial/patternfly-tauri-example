@@ -1,7 +1,29 @@
-# Tauri + React + Typescript
+# patternfly-tauri-example
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+This is a basic example [Tauri](https://tauri.app/) application that uses [Patternfly](https://patternfly.org/) + [React](https://react.dev/) for the frontend.
 
-## Recommended IDE Setup
+## Running the app
+First, make sure you install the following dependencies: (or use the `shell.nix` file)
+- `androidsdk`
+- `at-spi2-atk`
+- `atkmm`
+- `cairo`
+- `cargo`
+- `cargo-tauri`
+- `gdk-pixbuf`
+- `glib`
+- `gobject-introspection`
+- `gtk3`
+- `harfbuzz`
+- `librsvg`
+- `libsoup_3`
+- `make`
+- `nodejs`
+- `openssl`
+- `pango`
+- `pkg-config`
+- `webkitgtk_4_1`
+Then, run `make dev` on Linux, or `cargo tauri dev` for other platforms.
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Compiling
+The app can also be compiled with `make` or `cargo tauri build`.
