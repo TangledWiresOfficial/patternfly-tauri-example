@@ -7,6 +7,7 @@ on:
 
 jobs:
   build-tauri:
+    environment: Main
     permissions:
       contents: write
     strategy:
